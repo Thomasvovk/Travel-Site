@@ -3,7 +3,7 @@
 header {
   background-color: #fff;
   width: 100%;
-  padding: 30px 0 30px 0;
+  padding: 30px 0 15px 0;
 }
 
 /* Logo */
@@ -46,13 +46,38 @@ img {
 
 .hero {
   background-color: #fefaf5;
-  text-align: left;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px 0 50px 0;
 }
 
 .slogan {
   color: #335576;
+  font-size: 40px;
+  text-align: left;
+  margin: 0 0 30px 0;
 }
 
-.button {
+.slogan-section {
+  width: 40%;
+}
+
+.slogan__paragraph {
+  color: #335576;
+  text-align: left;
+  margin: 0 0 30px 0;
+}
+
+button {
   background-color: #db7a4e;
+  color: #fff;
+  width: 165px;
+  height: 40px;
+  border-radius: 200px;
+  border: none;
+}
+
+.slogan__img {
+  width: 35%;
+  height: 35%;
 }
