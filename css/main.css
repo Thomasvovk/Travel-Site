@@ -230,3 +230,8 @@ footer p {
 .footer-nav__social-icon--position {
   margin-left: 0;
 }
+
+a {
+  text-decoration: none;
+  outline: none;
+}
