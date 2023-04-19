@@ -4,6 +4,8 @@ header {
   background-color: #fff;
   width: 100%;
   padding: 20px 0 20px 0;
+  position: fixed;
+  top: 0;
 }
 
 /* Logo */
@@ -38,8 +40,8 @@ ul.list {
 }
 
 img {
-  height: 90%;
-  width: 70%;
+  height: 95%;
+  width: 60%;
 }
 
 /* Hero Section */
@@ -87,12 +89,24 @@ button {
 
 /* Distination Section */
 
-.distination__reccomendation {
+.destination__reccomendation {
   color: #335576;
   margin: 40px 0 40px 70px;
 }
 
-.pending {
+.destinations__card {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+.location {
+  position: relative;
+  text-align: center;
+}
+
+.location__name {
+  position: absolute;
+  bottom: 40px;
+  right: 100px;
+  color: #ffffff;
 }
