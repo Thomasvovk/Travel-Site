@@ -44,6 +44,10 @@ ul {
   list-style: none;
 }
 
+.active {
+  border-bottom: #db7a4e;
+}
+
 ul.list {
   width: 23%;
   font-size: 0.875rem;
