@@ -44,8 +44,11 @@ ul {
   list-style: none;
 }
 
-.active {
-  border-bottom: #db7a4e;
+.list__item--active {
+  text-decoration: underline;
+  text-decoration-thickness: 0.2rem;
+  text-underline-offset: 0.8rem;
+  color: #db7a4e;
 }
 
 ul.list {
@@ -62,19 +65,19 @@ ul.list {
   padding: 6.25rem 0 3.125rem 0;
 }
 
-.slogan {
+.hero__slogan {
   color: #335576;
   font-size: 2.5rem;
   text-align: left;
   margin: 0 0 1.875rem 0;
 }
 
-.slogan-section {
+.hero__slogan-section {
   width: 50%;
   padding: 3.125rem 0 0 3.125rem;
 }
 
-.slogan__paragraph {
+.hero__slogan--paragraph {
   color: #335576;
   text-align: left;
   margin: 0 0 1.875rem 0;
@@ -90,7 +93,7 @@ button {
   border: none;
 }
 
-.slogan__img {
+.hero__slogan-img {
   width: 35%;
   height: 35%;
 
@@ -99,17 +102,17 @@ button {
 
 /* Recomendations Section */
 
-.destination__reccomendation {
+.destination-section__reccomendation {
   color: #335576;
   margin: 2.5rem 0 1.875rem 4.375rem;
 }
 
-.destinations__card {
+.destination-section__cards {
   display: flex;
   justify-content: center;
 }
 
-.location {
+.destination-section__card {
   width: 16.25rem;
   height: 23.75rem;
   position: relative;
@@ -120,31 +123,31 @@ button {
   margin: 0 1.25rem 0 1.25rem;
 }
 
-.location__name {
+.destination-section__location {
   position: relative;
   bottom: 3.125rem;
   left: 3.75rem;
   color: #ffffff;
 }
 
-.location__img {
+.destination-section__img {
   width: 100%;
   height: 100%;
   border-radius: 0.625rem;
   backdrop-filter: blur(0.313rem);
 }
 
-.location__img--hawaii {
+.destination-section__img--hawaii {
   background-image: url(/assets/hawaii.jpg);
   background-size: cover;
 }
 
-.location__img--iceland {
+.destination-section__img--iceland {
   background-image: url(/assets/iceland.jpg);
   background-size: cover;
 }
 
-.location__img--greece {
+.destination-section__img--greece {
   background-image: url(/assets/greece.jpg);
   background-size: cover;
 }
@@ -156,7 +159,7 @@ footer {
   margin: 4.375rem 0 0 0;
 }
 
-.footer__nav {
+.footer-nav {
   display: flex;
   justify-content: space-around;
   padding: 2.5rem 0 2.5rem 0;
@@ -179,51 +182,51 @@ footer p {
   color: #335576d4;
 }
 
-.hours__schedule {
+.footer-nav__hours-schedule {
   margin: 0.625rem 0 0 0;
   width: 28.125rem;
   display: flex;
   justify-content: space-between;
 }
 
-.hours__time {
+.footer-nav__hours-time {
   margin: 0.625rem 0 0 0;
 }
 
-.contact__subtitle {
+.footer-nav__contact-subtitle {
   margin: 0.625rem 0 0 0;
 }
 
-.contact__email {
+.footer-nav__contact-email {
   margin: 0.625rem 0 0 0;
 }
 
-.social__card {
+.footer-nav__social-card {
   margin: 0 6.25rem 0 0;
 }
 
-.social__icon {
+.footer-nav__social-img {
   width: 10.625rem;
   padding-top: 2.5rem;
   display: flex;
   justify-content: flex-start;
 }
 
-.social__img {
+.footer-nav__social-icon {
   height: 1.25rem;
   display: flex;
   justify-content: flex-start;
   margin: 0 0.625rem 0 0.625rem;
 }
 
-.contact__title {
+.footer-nav__contact-title {
   padding: 0 0 0.938rem 0;
 }
 
-.hours__tittle {
+.footer-nav__hours-title {
   padding: 0 0 0.938rem 0;
 }
 
-.social__img--position {
+.footer-nav__social-icon--position {
   margin-left: 0;
 }

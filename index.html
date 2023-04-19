@@ -17,10 +17,12 @@
           ><a href="/index.html">Travel Site</a></site-logo
         >
         <ul class="list">
-          <li class="active"><a href="/index.html">Home</a></li>
-          <li><a href="/pages/hawaii.html">Hawaii</a></li>
-          <li><a href="/pages/iceland.html">Iceland</a></li>
-          <li><a href="pages/greece.html">Greece</a></li>
+          <li class="list__item list__item--active">
+            <a href="/index.html">Home</a>
+          </li>
+          <li class="list__item"><a href="/pages/hawaii.html">Hawaii</a></li>
+          <li class="list__item"><a href="/pages/iceland.html">Iceland</a></li>
+          <li class="list__item"><a href="pages/greece.html">Greece</a></li>
         </ul>
       </nav>
     </header>
@@ -28,75 +30,83 @@
     <main>
       <!--Hero-->
       <section class="hero">
-        <div class="slogan-section">
-          <h1 class="slogan">Travelling Comes With Endless Discoveries</h1>
-          <p class="slogan__paragraph">
+        <div class="hero__slogan-section">
+          <h1 class="hero__slogan">
+            Travelling Comes With Endless Discoveries
+          </h1>
+          <p class="hero__slogan--paragraph">
             Don't let your dreams be just dreams. Experience the world by
             booking a vacation with us now.
           </p>
-          <button>Get Started</button>
+          <button class="hero__button">Get Started</button>
         </div>
-        <img class="slogan__img" src="/assets/hero.png" />
+        <img class="hero__slogan-img" src="/assets/hero.png" />
       </section>
       <!-- Recommendations  -->
-      <section class="destination__section">
-        <h2 class="destination__reccomendation">Recommendations</h2>
-        <div class="destinations__card">
-          <div class="location">
-            <img class="location__img location__img--hawaii" />
-            <h2 class="location__name">Hawaii</h2>
+      <section class="destination-section">
+        <h2 class="destination-section__reccomendation">Recommendations</h2>
+        <div class="destination-section__cards">
+          <div class="destination-section__card">
+            <img
+              class="destination-section__img destination-section__img--hawaii"
+            />
+            <h2 class="destination-section__location">Hawaii</h2>
           </div>
-          <div class="location">
-            <img class="location__img location__img--iceland" />
-            <h2 class="location__name">Iceland</h2>
+          <div class="destination-section__card">
+            <img
+              class="destination-section__img destination-section__img--iceland"
+            />
+            <h2 class="destination-section__location">Iceland</h2>
           </div>
-          <div class="location">
-            <img class="location__img location__img--greece" />
-            <h2 class="location__name">Greece</h2>
+          <div class="destination-section__card">
+            <img
+              class="destination-section__img destination-section__img--greece"
+            />
+            <h2 class="destination-section__location">Greece</h2>
           </div>
         </div>
       </section>
     </main>
 
     <footer>
-      <section class="footer__nav">
-        <div class="contact__card">
-          <h2 class="contact__title">Contact</h2>
-          <h3 class="contact__subtitle">email</h3>
-          <p class="contact__email">info@travelsite.com</p>
+      <section class="footer-nav">
+        <div class="footer-nav__contact-card">
+          <h2 class="footer-nav__contact-title">Contact</h2>
+          <h3 class="footer-nav__contact-subtitle">email</h3>
+          <p class="footer-nav__contact-email">info@travelsite.com</p>
         </div>
-        <div class="hours__card">
-          <h2 class="hours__tittle">Hours</h2>
-          <div class="hours__schedule">
+        <div class="footer-nav__hours-card">
+          <h2 class="footer-nav__hours-title">Hours</h2>
+          <div class="footer-nav__hours-schedule">
             <span
-              ><h3 class="hours__days">monday-friday</h3>
-              <p class="hours__time">9:00 AM - 5:00 PM</p></span
+              ><h3 class="footer-nav__hours-days">monday-friday</h3>
+              <p class="footer-nav__hours-time">9:00 AM - 5:00 PM</p></span
             >
             <span
-              ><h3 class="hours__days">saturday</h3>
-              <p class="hours__time">10:00 AM - 4:00 PM</p></span
+              ><h3 class="footer-nav__hours-days">saturday</h3>
+              <p class="footer-nav__hours-time">10:00 AM - 4:00 PM</p></span
             >
             <span
-              ><h3 class="hours__days">sunday</h3>
-              <p class="hours__time">Closed</p></span
+              ><h3 class="footer-nav__hours-days">sunday</h3>
+              <p class="footer-nav__hours-time">Closed</p></span
             >
           </div>
         </div>
-        <div class="social__card">
-          <h2 class="social__title">Social</h2>
-          <div class="social__icon">
+        <div class="footer-nav__social-card">
+          <h2 class="footer-nav__social-title">Social</h2>
+          <div class="footer-nav__social-img">
             <img
-              class="social__img social__img--position"
+              class="footer-nav__social-icon footer-nav__social-icon--position"
               src="/assets/icon-instagram.png"
               alt="instagram"
             />
             <img
-              class="social__img"
+              class="footer-nav__social-icon"
               src="/assets/icon-facebook.png"
               alt="facebook"
             />
             <img
-              class="social__img"
+              class="footer-nav__social-icon"
               src="/assets/icon-twitter.png"
               alt="twitter"
             />
