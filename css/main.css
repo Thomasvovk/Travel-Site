@@ -166,7 +166,9 @@ footer p {
 
 .hours__schedule {
   margin: 10px 0 0 0;
+  width: 450px;
   display: flex;
+  justify-content: space-between;
 }
 
 .hours__time {
@@ -194,4 +196,12 @@ footer p {
 
 .social__img {
   height: 20px;
+}
+
+.contact__title {
+  padding: 0 0 15px 0;
+}
+
+.hours__tittle {
+  padding: 0 0 15px 0;
 }
