@@ -62,7 +62,7 @@ ul.list {
   background-color: #fefaf5;
   display: flex;
   justify-content: space-evenly;
-  padding: 6.25rem 0 3.125rem 0;
+  padding: 6.25rem 0 5.125rem 0;
 }
 
 .hero__slogan {
@@ -160,6 +160,7 @@ button {
 
 footer {
   background-color: #fefaf5;
+  padding-bottom: 1rem;
 }
 
 .footer-nav {
@@ -178,7 +179,7 @@ footer h3 {
   font-size: 0.625rem;
   font-weight: 100;
   text-transform: uppercase;
-  color: #db7b4ea6;
+  color: #db7b4e;
 }
 
 footer p {
@@ -216,7 +217,7 @@ footer p {
 }
 
 .footer-nav__social-icon {
-  height: 1.25rem;
+  height: 1.45rem;
   display: flex;
   justify-content: flex-start;
   margin: 0 0.625rem 0 0.625rem;

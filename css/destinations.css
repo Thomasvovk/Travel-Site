@@ -22,14 +22,23 @@
 }
 
 .itinerary__day {
-  width: 18rem;
-  height: 25rem;
+  width: 21rem;
+  height: 30rem;
   background-color: #fff;
   border-radius: 0.225rem;
 }
 
 .itinerary__subtittle {
-  text-decoration: underline;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   text-align: center;
+  border-bottom: 0.2rem solid black;
+  margin: 1.3rem 1rem 2.5rem 1rem;
+}
+
+.itinerary__schedule li {
+  text-align: center;
+  font-size: 1.3rem;
+  background-color: #fefaf6;
+  margin: 2rem 1.2rem 2rem 1.2rem;
+  padding: 1rem 1rem 1rem 1rem;
 }
