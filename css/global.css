@@ -20,7 +20,7 @@ header {
   top: 0;
 }
 
-/* Navigation Bar % Log */
+/* Navigation Bar & Logo */
 
 .header__logo {
   font-size: 1.163rem;
@@ -92,11 +92,11 @@ footer h3 {
   font-size: 0.625rem;
   font-weight: 100;
   text-transform: uppercase;
-  color: #db7b4e;
+  color: #db7a4e;
 }
 
 footer p {
-  color: #335576d4;
+  color: #335576;
 }
 
 .footer-nav__hours-schedule {

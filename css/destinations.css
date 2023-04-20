@@ -1,9 +1,25 @@
-main {
+.itinerary---hawaii {
   height: 50rem;
   background-image: url(/assets/images/hawaii.jpg);
   background-size: cover;
   background-position: center;
 }
+
+.itinerary---iceland {
+  height: 50rem;
+  background-image: url(/assets/images/iceland.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.itinerary---greece {
+  height: 50rem;
+  background-image: url(/assets/images/greece.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* Itinerary Section  */
 
 .itinerary__title {
   font-size: 4rem;
@@ -35,7 +51,7 @@ main {
 .itinerary__schedule li {
   text-align: center;
   font-size: 1rem;
-  background-color: #fefaf6;
+  background-color: #fefaf5;
   margin: 1rem 1.2rem 1rem 1.2rem;
   padding: 1rem 1rem 1rem 1rem;
 }
