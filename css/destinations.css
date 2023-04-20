@@ -1,18 +1,14 @@
 main {
-  /* position: relative; */
-  height: 50rem;
-  width: 100%;
-  margin: 4rem 0 0 0;
+  height: 45rem;
   background-image: url(/assets/hawaii.jpg);
-  background-position: 55% 55%;
+  background-size: cover;
+  background-position: center;
 }
 
 .itinerary__title {
-  /* position: absolute;
-  left: 6rem;
-  top: 15rem; */
   font-size: 4rem;
   color: #fff;
+  padding: 5rem 0 4rem 6rem;
 }
 
 .itinerary__cards {
@@ -22,24 +18,24 @@ main {
 }
 
 .itinerary__day {
-  width: 17rem;
-  height: 24rem;
+  width: 16.25rem;
+  height: 23.75rem;
   background-color: #fff;
   border-radius: 0.425rem;
-  margin: 0 1rem 0 1rem;
+  margin: 0 1.25rem 0 0.125rem;
 }
 
 .itinerary__subtittle {
-  font-size: 1rem;
+  font-size: 1.4rem;
   text-align: center;
   border-bottom: 0.2rem solid black;
-  margin: 1.3rem 1rem 2rem 1rem;
+  margin: 0.9rem 1rem 1.5rem 1rem;
 }
 
 .itinerary__schedule li {
   text-align: center;
   font-size: 1rem;
   background-color: #fefaf6;
-  margin: 1rem 1.2rem 0.1rem 1.2rem;
-  padding: 0.7rem 1rem 1rem 0.7rem;
+  margin: 1rem 1.2rem 1rem 1.2rem;
+  padding: 1rem 1rem 1rem 1rem;
 }
