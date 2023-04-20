@@ -14,7 +14,7 @@ header {
   font-size: 1.163rem;
   font-weight: bold;
   color: #335576;
-  margin: 0 0 0 4.375rem;
+  margin: 0 0 0 5rem;
 }
 
 .header__logo a {
@@ -62,7 +62,7 @@ ul.list {
   background-color: #fefaf5;
   display: flex;
   justify-content: space-evenly;
-  padding: 6.25rem 0 5.125rem 0;
+  padding: 7.25rem 0 5.125rem 0;
 }
 
 .hero__slogan {
