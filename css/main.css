@@ -28,7 +28,7 @@
 
 button {
   background-color: #db7a4e;
-  color: #ffffffd2;
+  color: #fff;
   width: 10.313rem;
   height: 2.5rem;
   font-size: 0.938rem;
@@ -39,7 +39,6 @@ button {
 .hero__slogan-img {
   width: 30%;
   height: 30%;
-
   padding: 0 3.125rem 0 0;
 }
 
@@ -71,9 +70,9 @@ button {
 }
 
 .destination-section__location {
-  position: relative;
-  bottom: 3.125rem;
-  left: 3.75rem;
+  position: absolute;
+  bottom: 1rem;
+  left: 9rem;
   color: #ffffff;
 }
 
