@@ -85,16 +85,16 @@ button {
 }
 
 .destination-section__img--hawaii {
-  background-image: url(/assets/hawaii.jpg);
+  background-image: url(/assets//images/hawaii.jpg);
   background-size: cover;
 }
 
 .destination-section__img--iceland {
-  background-image: url(/assets/iceland.jpg);
+  background-image: url(/assets/images/iceland.jpg);
   background-size: cover;
 }
 
 .destination-section__img--greece {
-  background-image: url(/assets/greece.jpg);
+  background-image: url(/assets/images/greece.jpg);
   background-size: cover;
 }

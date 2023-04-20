@@ -1,6 +1,6 @@
 main {
   height: 50rem;
-  background-image: url(/assets/hawaii.jpg);
+  background-image: url(/assets/images/hawaii.jpg);
   background-size: cover;
   background-position: center;
 }
