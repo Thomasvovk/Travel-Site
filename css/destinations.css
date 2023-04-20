@@ -1,0 +1,21 @@
+.itinerary {
+  height: 60rem;
+  margin: 4rem 0 0 0;
+  background-image: url(/assets/hawaii.jpg);
+  background-size: cover;
+}
+.itinerary__cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.itinerary__day {
+  width: 15rem;
+  background-color: #fff;
+}
+
+.itinerary__subtittle {
+  text-decoration: underline;
+  font-size: 1.1rem;
+  text-align: center;
+}

@@ -102,6 +102,10 @@ button {
 
 /* Recomendations Section */
 
+.destination-section {
+  padding: 0 0 5rem 0;
+}
+
 .destination-section__reccomendation {
   color: #335576;
   margin: 2.5rem 0 1.875rem 4.375rem;
@@ -156,7 +160,6 @@ button {
 
 footer {
   background-color: #fefaf5;
-  margin: 4.375rem 0 0 0;
 }
 
 .footer-nav {
