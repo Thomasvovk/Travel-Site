@@ -1,3 +1,5 @@
+/* Main Bacground Image */
+
 .itinerary---hawaii {
   height: 50rem;
   background-image: url(/assets/images/hawaii.jpg);
@@ -37,7 +39,7 @@
   width: 16.25rem;
   height: 23.75rem;
   background-color: #fff;
-  border-radius: 0.425rem;
+  border-radius: 5px;
   margin: 0 1.25rem 0 0.125rem;
 }
 
