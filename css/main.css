@@ -8,7 +8,7 @@
   margin-top: 4rem;
 }
 
-.hero__slogan {
+.hero__slogan__header {
   color: #335576;
   font-size: 2.5rem;
   text-align: left;
@@ -20,13 +20,13 @@
   padding: 3.125rem 0 0 1rem;
 }
 
-.hero__slogan--paragraph {
+.hero__slogan__paragraph {
   color: #335576;
   text-align: left;
   margin: 0 0 1.875rem 0;
 }
 
-button {
+.hero__button {
   background-color: #db7a4e;
   color: #fff;
   width: 10.313rem;
